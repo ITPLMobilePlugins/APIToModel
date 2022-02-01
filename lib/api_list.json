@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://gorest.co.in/public/v1/users",
+    "method": "GET",
+    "model_filename": "Users",
+    "input": {}
+  },{
+  "url": "https://api.cloud.wowza.com/api/v1.5/live_streams",
+  "method": "POST",
+  "model_filename": "LiveStreamResponse",
+  "headers": {
+    "content-type": "application/json",
+    "accept": "application/json",
+    "wsc-api-key": "WaL5t9xMJ5p60gN3rjEkSLuQYCrqgQZu8OQD6EQCb19akASy24pfP6qNAAZW313f",
+    "wsc-access-key": "AZ9o8hEs4IrCNoYgWK3YyB3y4DTf0VSJscGtTS6lKUQraWJcV6pSvm5rC2YY324e"
+  },
+  "input": {
+    "live_stream": {
+      "aspect_ratio_height": 1080,
+      "aspect_ratio_width": 1920,
+      "billing_mode": "pay_as_you_go",
+      "broadcast_location": "asia_pacific_india",
+      "encoder": "other_rtmp",
+      "name": "test_stream_6",
+      "disable_authentication": true,
+      "transcoder_type": "transcoded",
+      "recording": true,
+      "vod_stream": true
+    }
+  }
+}
+]
