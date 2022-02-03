@@ -11,18 +11,13 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+API to model plugin is developed to improve prodectivity and to reduce time for api impletation in the application.
 
 ## Getting started
 
-# Json to Model Generator
+# API to Model Generator
 
-Json to Model generator is a Command line tool for generating Dart models (json_serializable) using API calls. Given an API details, this library will generate all the necessary Dart classes to parse and generate JSON.
+API to Model generator is a Command line tool for generating Dart models (json_serializable) using API calls. Given an API details, this library will generate all the necessary Dart classes to parse and generate JSON.
 
 ## Installation
 
@@ -39,8 +34,6 @@ path: 1.8.0
   json_serializable: 6.1.4
   json_annotation: 4.4.0
   http:
-  dynamic_model_gen:
-    path: path/to/dynamic_model_gen
 ```
 
 install using `pub get` command or if you using dart vscode/android studio, you can use install option.
