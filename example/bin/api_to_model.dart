@@ -1,6 +1,5 @@
-library api_to_model;
 
-import 'package:api_to_model/src/json_to_model.dart';
+import 'package:api_to_model/index.dart';
 import 'package:args/args.dart';
 
 Future<void> main(List<String> arguments) async {
